@@ -12,7 +12,7 @@ app.get('/currenttime', function(req, res) {
 }); // localhost:3000/currenttime
 
 app.get('/', function(req, res) {
-  res.send('<form action="/store-user" method="POST"><label>Your Name</label><input type="text" name="username"><button>Submit</button></form>');
+  res.send('<form action="/store-user" method="POST"><label>Your Name:</label><input type="text" name="username"><button>Submit</button></form>');
 }); // localhost:3000/
 
 app.post('/store-user', function(req, res) {
