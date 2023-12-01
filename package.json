@@ -1,0 +1,22 @@
+{
+  "name": "section-17",
+  "version": "1.0.0",
+  "description": "Practice nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hectorbiminchumo/backend-development.git"
+  },
+  "author": "Hector Biminchumo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hectorbiminchumo/backend-development/issues"
+  },
+  "homepage": "https://github.com/hectorbiminchumo/backend-development#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
